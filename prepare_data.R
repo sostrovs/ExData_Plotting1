@@ -17,11 +17,3 @@ prepare_data <- function() {
     data_selected$Date_Time <- as.POSIXct(strptime(paste(data_selected$Date, ' ', data_selected$Time), '%Y-%m-%d %H:%M:%S'))
     data_selected
 }
-
-
-
-
-
-
-
-
